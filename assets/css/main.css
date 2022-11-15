@@ -1838,10 +1838,6 @@ input, select, textarea {
 					background-color: #C4376B;
 				}
 
-				ul.social li a.fa-at {
-					background-color: #006599;
-				}
-
 				ul.social li a.fa-linkedin-in {
 					background-color: #006599;
 				}
@@ -2460,4 +2456,8 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+
+	img {
+		width: 100%;
 	}
