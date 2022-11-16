@@ -2461,3 +2461,15 @@ input, select, textarea {
 	img {
 		width: 100%;
 	}
+
+	a.disabled {
+		pointer-events: none;
+	}
+
+	a.button.disabled {
+		background-color: #bfd2da;
+	}
+
+	.grayscale {
+		filter: grayscale(100%);
+	}
