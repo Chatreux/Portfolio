@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #0F0033;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #0F0033;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1672,10 +1672,6 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1692,8 +1688,8 @@ input, select, textarea {
 		border-radius: 8px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px #B78DFA;
+		background-color: #38117A;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1704,7 +1700,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #7000C7;
 			color: #fff !important;
 		}
 
@@ -1713,7 +1709,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #7000C7;
 			top: 1px;
 		}
 
@@ -1755,7 +1751,7 @@ input, select, textarea {
 /* List */
 
 	ul {
-		list-style: disc;
+		list-style: square;
 		padding-left: 1em;
 	}
 
@@ -1813,7 +1809,7 @@ input, select, textarea {
 					transition: background-color .2s ease-in-out;
 					background-color: #444;
 					border-radius: 6px;
-					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+					box-shadow: inset 0px 0px 0px 1px #2D0261, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
 					display: block;
 					font-size: 26px;
@@ -1918,8 +1914,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		/* background: #fff; */
+		/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1); */
 		text-align: center;
 		padding: 2em;
 	}
@@ -2014,7 +2010,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #E0C8F8;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2033,7 +2029,7 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				background: #2D0261;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
@@ -2046,7 +2042,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #38117A;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2089,7 +2085,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #fff !important;
-				background: #383838;
+				background: #7000C7;
 			}
 
 			#nav a.active {
@@ -2105,7 +2101,7 @@ input, select, textarea {
 					margin-left: -0.75em;
 					border-left: solid 0.75em transparent;
 					border-right: solid 0.75em transparent;
-					border-top: solid 0.6em #282828;
+					border-top: solid 0.6em #2D0261;
 				}
 
 /* Articles */
@@ -2467,9 +2463,21 @@ input, select, textarea {
 	}
 
 	a.button.disabled {
-		background-color: #bfd2da;
+		background-color: #9C50F9;
 	}
 
 	.grayscale {
 		filter: grayscale(100%);
+	}
+
+	.highlight {
+		color: #2D0261;
+	}
+
+	h3 a {
+		text-align: left;
+	}
+
+	header > p, li {
+		font-weight: 600;
 	}
