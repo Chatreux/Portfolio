@@ -110,12 +110,12 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: inherit;
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #7000C7 !important;
 		}
 
 		a img {
@@ -1835,7 +1835,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: #fff;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -2005,8 +2005,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #9C50F9;
+			text-shadow: 1px 1px 0px #B78DFA;
 		}
 
 		.wrapper.style3 {
@@ -2015,13 +2015,13 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			background-color: #0F0033;
+			color: #B78DFA;
+			text-shadow: -1px -1px 0px #2D0261;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: #B78DFA;
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2146,7 +2146,7 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		color: #666;
+		color: #9C50F9;
 		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
