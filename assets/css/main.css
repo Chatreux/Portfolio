@@ -2010,7 +2010,7 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #E0C8F8;
-			text-shadow: 1px 1px 0px #fff;
+			/* text-shadow: 1px 1px 0px #fff; */
 		}
 
 		.wrapper.style4 {
