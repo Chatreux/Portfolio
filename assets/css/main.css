@@ -2404,8 +2404,9 @@ input, select, textarea {
 				#nav a {
 					padding: 0 0.75em;
 					height: inherit;
-					line-height: inherit;
-					border-radius: 0;
+					/*line-height: inherit;
+					border-radius: 0;*/
+					font-size: 11px;
 				}
 
 					#nav a:hover {
