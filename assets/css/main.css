@@ -2477,6 +2477,18 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	header > p, li {
+	header > p, li, .weighted {
 		font-weight: 600;
+	}
+
+	.weighted {
+		font-size: initial;
+	}
+
+	.italic {
+		font-style: italic;
+	}
+
+	.nav-button {
+		background-color: #0F0033;
 	}
