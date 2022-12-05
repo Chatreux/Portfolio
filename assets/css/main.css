@@ -2493,3 +2493,9 @@ input, select, textarea {
 	.nav-button {
 		background-color: #0F0033;
 	}
+
+	.drive-embedded {
+		height: 100%;
+		width: 100%;
+		padding: 12.5% 0%;
+	}
